@@ -1,0 +1,26 @@
+h1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+
+    /* for any other font property beyond bold and italic, use font-variation settings */
+    font-variation-settings: "wdth" 100;
+    transition: all 3s;
+}
+
+h1:hover {
+    font-weight: 900;
+    font-variation-settings: "wdth" 125;
+}
+h3 {
+    font-family: "Agrave Pro", cursive;
+}
+p {
+    font-family: "Nunito", sans-serif;
+}
+
+.maps {
+    /* you have to set both widht and hight */
+    width: 50vw;
+    height: 35vw;
+}

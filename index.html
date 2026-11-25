@@ -4,7 +4,90 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Embedding External Resources</title>
-        <link rel="stylesheet" href="main.css/" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Sour+Gummy:ital,wdth,wght@0,100..125,100..900;1,100..125,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/main.css" />
     </head>
-    <body></body>
+    <body>
+        <div class="container">
+            <h1>Embedding Things</h1>
+            <!-- prompt:inside of main, add a section with an h3 and two paragraphs about snow -->
+            <main>
+                <section>
+                    <h3>Snow</h3>
+                    <p>
+                        Snow forms when water vapor in the atmosphere freezes
+                        into ice crystals that join together and fall to the
+                        ground. Each snowfall can create a quiet, sparkling
+                        landscape that transforms familiar surroundings.
+                    </p>
+                    <p>
+                        Beyond its beauty, snow plays an important role in
+                        nature by insulating plants, storing water for spring,
+                        and providing a habitat for many winter animals.
+                    </p>
+                    <p>
+                        Snow forms when water vapor in the atmosphere freezes
+                        into ice crystals that join together and fall to the
+                        ground. Each snowfall can create a quiet, sparkling
+                        landscape that transforms familiar surroundings.
+                    </p>
+                    <p>
+                        Beyond its beauty, snow plays an important role in
+                        nature by insulating plants, storing water for spring,
+                        and providing a habitat for many winter animals.
+                    </p>
+                    <p>
+                        Snow forms when water vapor in the atmosphere freezes
+                        into ice crystals that join together and fall to the
+                        ground. Each snowfall can create a quiet, sparkling
+                        landscape that transforms familiar surroundings.
+                    </p>
+                    <p>
+                        Beyond its beauty, snow plays an important role in
+                        nature by insulating plants, storing water for spring,
+                        and providing a habitat for many winter animals.
+                    </p>
+                </section>
+                <section>
+                    <!-- embedding youtube video -->
+                    <iframe
+                        width="600"
+                        height="450"
+                        src="https://www.youtube.com/embed/qk6MeIXsUeU?si=rZMF8TU-vzF2YrvI"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="
+                            accelerometer;
+                            autoplay;
+                            clipboard-write;
+                            encrypted-media;
+                            gyroscope;
+                            picture-in-picture;
+                            web-share;
+                        "
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                    ></iframe>
+                    <hr />
+
+                    <section>
+                        <!-- embedding google map -->
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4685.179203704153!2d-75.76191382927065!3d45.351537282167484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1795626165896!5m2!1sen!2sca"
+                            class="maps"
+                            style="border: 0"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="strict-origin-when-cross-origin"
+                        ></iframe>
+                    </section>
+                </section>
+            </main>
+        </div>
+    </body>
 </html>
